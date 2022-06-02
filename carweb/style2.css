@@ -105,7 +105,7 @@
   .wrapper {
     position: relative;
     left: 900px;
-    top: -210px;
+    top: -410px;
     width: 500px;
     height: 400px;
   }
@@ -114,12 +114,28 @@
     position: absolute;
     width: 100%;
     opacity: 1;
-    animation: img-1 7s infinite;  
+    animation: img-1 8s infinite;  
   }
   
   .wrapper img:last-child {
     position: absolute;
     width: 100%;
     opacity: 0;
-    animation: img-2 7s infinite;
+    animation: img-2 8s infinite;
+  }.button2{
+    background-color:#841b1b; 
+  border-radius: 21px;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  margin: 4px 2px;
+  cursor: pointer;
+  margin-left: 6%;
+  margin-top: 7%;
+  font-size: 18px;
+  text-shadow: 3px 3px 3px #000000;
+
+
   }
